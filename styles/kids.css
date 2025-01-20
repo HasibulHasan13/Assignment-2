@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* shared style */
+.btn-primary {
+    background-color: orange;
+    color: white;
+    padding: 10px 60px 10px 60px;
+    font-size: 1.25em;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+}
+
+
+/* navbar */
+
+.navbar{
+    margin: 0 auto;
+    padding: 20px 140px 20px 140px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 62px;
+    max-width: 1160px;
+}
+.nav-start{
+    display: flex;
+    gap: 11px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+.nav-links{
+    display: flex;
+    text-decoration: none;
+}
+.nav-link {
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+.i1{
+    color: orange;
+}
+.i2{
+    color: skyblue;
+}
+.i3{
+    color: #05D4DF;
+}
+.i4{
+    color: #5D58EF;
+}
+/* banner section */
+
+.banner {
+    display: flex;
+    max-width: 1158.61px;
+    max-height: 575px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.banner-content {
+    max-width: 640px;
+    text-align: left;
+    max-height: 331px;
+    margin-top: 70px;
+    margin-bottom: 110px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 3.5em;
+}
+.highlight1 {
+    color: orange; /* Blue color */
+}
+.highlight2{
+    color: skyblue;
+}
+.banner-description {
+    margin-top: -25px;
+    font-size: 1.25em;
+}
+.btn-sec {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 47px 10px 47px;
+    font-size: 1.25em;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+}
+
+/* standard curriculum */
