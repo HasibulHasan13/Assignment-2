@@ -5,6 +5,15 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.raleway-rale {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 /* shared style */
 .btn-primary {
     background-color: orange;
@@ -62,6 +71,21 @@
 .i4{
     color: #5D58EF;
 }
+
+/* marquee */
+.marquee-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+marquee {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    border: 1px solid rgb(187, 219, 232);
+    background-color: #ffffff;
+    color: orange;
+    padding: 10px;
+    width: 100%; /* Make the marquee fill the container */
+}
 /* banner section */
 
 .banner {
@@ -105,3 +129,75 @@
 }
 
 /* standard curriculum */
+.sc {
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    background-image: url("/HTML/Milestone-2/Assignment-2/assets/bg.png");
+}
+
+.section-title {
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
+.facts-container {
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+.mh{
+    max-height: 126px;
+}
+.fact-title {
+    font-size: 1.53em;
+    color: #202020;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.fact-name {
+    color: #808080;
+    font-weight: 500;
+    font-size: 15.09px;
+    margin-bottom: 40px;
+}
+.i5{
+    color: #64C8FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.i6{
+    color: #F0AA00;
+    text-decoration: none;
+    font-weight: bold;
+}
+.i7{
+    color: #8700FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.fact-card { /*last e korbo gradient baki*/ 
+    text-align: center;
+    border-radius: 18.86px;
+    padding: 53px 41px 53px 41px;
+    background-color: white;
+}
+.g1{
+    background: linear-gradient(to bottom, #DEF5FF, #FFFFFF 30%);
+    border: 1px solid #DEF5FF;
+}
+.g2{
+    background: linear-gradient(to bottom, #FFF4DC, #FFFFFF 30%);
+    border: 1px solid #FFF4DC;
+}
+.g3{
+    background: linear-gradient(to bottom, #F2E8FF, #FFFFFF 30%);
+    border: 1px solid #F2E8FF;
+}
