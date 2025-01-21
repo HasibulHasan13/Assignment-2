@@ -137,7 +137,7 @@ marquee {
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    background-image: url("/HTML/Milestone-2/Assignment-2/assets/bg.png");
+    background-image: url("https://github.com/HasibulHasan13/Assignment-2/blob/main/assets/bg.png?raw=true");
 }
 
 .section-title {
@@ -210,7 +210,7 @@ marquee {
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    background: linear-gradient(to top, rgba(254, 163, 1, 0.7), #FFFFFF 100%), url("/HTML/Milestone-2/Assignment-2/assets/bg.png");
+    background: linear-gradient(to top, rgba(254, 163, 1, 0.7), #FFFFFF 100%), url("https://github.com/HasibulHasan13/Assignment-2/blob/main/assets/bg.png?raw=true");
     background-blend-mode: multiply;
 }
 .story-container{
