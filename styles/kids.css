@@ -201,3 +201,170 @@ marquee {
     background: linear-gradient(to bottom, #F2E8FF, #FFFFFF 30%);
     border: 1px solid #F2E8FF;
 }
+
+/* Our stories section */
+.os{
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    background: linear-gradient(to top, rgba(254, 163, 1, 0.7), #FFFFFF 100%), url("/HTML/Milestone-2/Assignment-2/assets/bg.png");
+    background-blend-mode: multiply;
+}
+.story-container{
+    display: flex;
+    gap: 19px;
+    max-width: 1160px;
+}
+.long{
+    max-width: 540.27px;
+    height: 622.4px;
+}
+.short{
+    display: grid;
+    max-width: 622.4px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+}
+.story-title {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    padding-left: 38.35px;
+    padding-left: 38.35px;
+    text-align: left;
+    line-height: 38.3px;
+    margin-bottom: 50px;
+}
+
+.story-title1{
+    font-size: 15.34px;
+    color: black;
+    font-weight: bold;
+    padding-right: 38px;
+    padding-bottom: 28px;
+    padding-left: 38px;
+    text-align: left;
+
+}
+.story-name {
+    color: #666666;
+    font-weight: 500;
+    font-size: 15.34px;
+    padding-right: 68px;
+    padding-bottom: 34px;
+    padding-left: 38px;
+    text-align: left;
+    line-height: 28.8px;
+}
+.story-card { /*last e korbo gradient baki*/ 
+    text-align: center;
+    border-radius: 16px;
+    background-color: white;
+}
+.story-card1 { /*last e korbo gradient baki*/ 
+    text-align: center;
+    border-radius: 16px;
+    background-color: white;
+}
+.story-card img{
+    border-radius: 16px 16px 0 0;
+}
+.story-card1 img{
+    border-radius: 16px 16px 0 0;
+}
+.btn-third{
+    position: relative;
+    top: -25px;
+    left: -18px;
+    background-color: #95B226;
+    color: #FFFFFF;
+    padding: 9px 19px 9px 19px;
+    font-size: 15.34px;
+    font-weight: 600;
+    border: none;
+    border-radius: 47.93px;
+}
+.btn-fourth{
+    position: relative;
+    top: -25px;
+    left: -140px;
+    background-color: #3CD8E8;
+    color: #FFFFFF;
+    padding: 9px 19px 9px 19px;
+    font-size: 15.34px;
+    font-weight: 600;
+    border: none;
+    border-radius: 47.93px;
+}
+.btn-fifth{
+    position: relative;
+    top: -25px;
+    left: -18px;
+    background-color: #5D58F0;
+    color: #FFFFFF;
+    padding: 9px 19px 9px 19px;
+    font-size: 15.34px;
+    font-weight: 600;
+    border: none;
+    border-radius: 47.93px;
+}
+.btn-th{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 61px 10px 61px;
+    font-size: 1.25em;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+/* footer  */
+.footer{
+    background-color: #01ACFD;
+    padding: 123px 228px 174px 140px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.w{
+    color: white;
+}
+.footer-start{
+    display: flex;
+    gap: 10;
+}
+.brand-container { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.brand-footer{
+    font-weight: bold;
+    font-size: 2.63em;
+    color: white;
+}
+.description{
+    max-width: 400px;
+    font-size: 1.25em;
+    color: white;
+}
+.title2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+.foot-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title3{
+    font-size: 1.62em;
+    font-weight: bold;
+    color: white;
+}
