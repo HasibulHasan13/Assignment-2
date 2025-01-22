@@ -69,7 +69,9 @@ body {
     list-style: none;
     margin-right: 30px;
 }
-
+.hamburger{
+    display: none;
+}
 .i1 {
     color: orange;
 }
