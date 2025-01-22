@@ -8,12 +8,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+body {
+    margin: 0; 
+    }
 .raleway-rale {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 /* shared style */
 .btn-primary {
     background-color: orange;
@@ -28,7 +31,7 @@
 
 /* navbar */
 
-.navbar{
+.navbar {
     margin: 0 auto;
     padding: 20px 140px 20px 140px;
     display: flex;
@@ -36,39 +39,48 @@
     max-height: 62px;
     max-width: 1160px;
 }
-.nav-start{
+
+.nav-start {
     display: flex;
     gap: 11px;
 }
-.brand{
+
+.brand {
     display: flex;
     align-items: center;
     font-weight: bold;
     font-size: 2em;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     text-decoration: none;
 }
+
 .nav-link {
     display: flex;
     text-decoration: none;
     font-weight: 600;
 }
+
 .nav-item {
     list-style: none;
     margin-right: 30px;
 }
-.i1{
+
+.i1 {
     color: orange;
 }
-.i2{
+
+.i2 {
     color: skyblue;
 }
-.i3{
+
+.i3 {
     color: #05D4DF;
 }
-.i4{
+
+.i4 {
     color: #5D58EF;
 }
 
@@ -84,8 +96,9 @@ marquee {
     background-color: #ffffff;
     color: orange;
     padding: 10px;
-    width: 100%; /* Make the marquee fill the container */
+    width: 100%;
 }
+
 /* banner section */
 
 .banner {
@@ -108,16 +121,21 @@ marquee {
     font-weight: bold;
     font-size: 3.5em;
 }
+
 .highlight1 {
-    color: orange; /* Blue color */
+    color: orange;
+    /* Blue color */
 }
-.highlight2{
+
+.highlight2 {
     color: skyblue;
 }
+
 .banner-description {
     margin-top: -25px;
     font-size: 1.25em;
 }
+
 .btn-sec {
     background-color: black;
     color: #FFFFFF;
@@ -152,9 +170,11 @@ marquee {
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
 }
-.mh{
+
+.mh {
     max-height: 126px;
 }
+
 .fact-title {
     font-size: 1.53em;
     color: #202020;
@@ -168,42 +188,49 @@ marquee {
     font-size: 15.09px;
     margin-bottom: 40px;
 }
-.i5{
+
+.i5 {
     color: #64C8FF;
     text-decoration: none;
     font-weight: bold;
 }
-.i6{
+
+.i6 {
     color: #F0AA00;
     text-decoration: none;
     font-weight: bold;
 }
-.i7{
+
+.i7 {
     color: #8700FF;
     text-decoration: none;
     font-weight: bold;
 }
-.fact-card { /*last e korbo gradient baki*/ 
+
+.fact-card {
     text-align: center;
     border-radius: 18.86px;
     padding: 53px 41px 53px 41px;
     background-color: white;
 }
-.g1{
+
+.g1 {
     background: linear-gradient(to bottom, #DEF5FF, #FFFFFF 30%);
-    border: 1px solid #DEF5FF;
+    border: 2px solid #DEF5FF;
 }
-.g2{
+
+.g2 {
     background: linear-gradient(to bottom, #FFF4DC, #FFFFFF 30%);
-    border: 1px solid #FFF4DC;
+    border: 2px solid #FFF4DC;
 }
-.g3{
+
+.g3 {
     background: linear-gradient(to bottom, #F2E8FF, #FFFFFF 30%);
-    border: 1px solid #F2E8FF;
+    border: 2px solid #F2E8FF;
 }
 
 /* Our stories section */
-.os{
+.os {
     margin: 0 auto;
     margin-top: 60px;
     display: flex;
@@ -213,21 +240,25 @@ marquee {
     background: linear-gradient(to top, rgba(254, 163, 1, 0.7), #FFFFFF 100%), url("https://github.com/HasibulHasan13/Assignment-2/blob/main/assets/bg.png?raw=true");
     background-blend-mode: multiply;
 }
-.story-container{
+
+.story-container {
     display: flex;
     gap: 19px;
     max-width: 1160px;
 }
-.long{
+
+.long {
     max-width: 540.27px;
     height: 622.4px;
 }
-.short{
+
+.short {
     display: grid;
     max-width: 622.4px;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 19px;
 }
+
 .story-title {
     font-size: 1.5em;
     color: black;
@@ -239,7 +270,7 @@ marquee {
     margin-bottom: 50px;
 }
 
-.story-title1{
+.story-title1 {
     font-size: 15.34px;
     color: black;
     font-weight: bold;
@@ -249,6 +280,7 @@ marquee {
     text-align: left;
 
 }
+
 .story-name {
     color: #666666;
     font-weight: 500;
@@ -259,23 +291,28 @@ marquee {
     text-align: left;
     line-height: 28.8px;
 }
-.story-card { /*last e korbo gradient baki*/ 
+
+.story-card {
     text-align: center;
     border-radius: 16px;
     background-color: white;
 }
-.story-card1 { /*last e korbo gradient baki*/ 
+
+.story-card1 {
     text-align: center;
     border-radius: 16px;
     background-color: white;
 }
-.story-card img{
+
+.story-card img {
     border-radius: 16px 16px 0 0;
 }
-.story-card1 img{
+
+.story-card1 img {
     border-radius: 16px 16px 0 0;
 }
-.btn-third{
+
+.btn-third {
     position: relative;
     top: -25px;
     left: -18px;
@@ -287,7 +324,10 @@ marquee {
     border: none;
     border-radius: 47.93px;
 }
-.btn-fourth{
+.fff{
+    left: -45px;
+}
+.btn-fourth {
     position: relative;
     top: -25px;
     left: -140px;
@@ -299,7 +339,8 @@ marquee {
     border: none;
     border-radius: 47.93px;
 }
-.btn-fifth{
+
+.btn-fifth {
     position: relative;
     top: -25px;
     left: -18px;
@@ -311,7 +352,8 @@ marquee {
     border: none;
     border-radius: 47.93px;
 }
-.btn-th{
+
+.btn-th {
     background-color: black;
     color: #FFFFFF;
     padding: 10px 61px 10px 61px;
@@ -321,50 +363,257 @@ marquee {
     border-radius: 12px;
     margin-bottom: 60px;
 }
+
 /* footer  */
-.footer{
+
+.footer {
     background-color: #01ACFD;
     padding: 123px 228px 174px 140px;
 }
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
 }
-.w{
+
+.w {
     color: white;
 }
-.footer-start{
+
+.footer-start {
     display: flex;
     gap: 10;
 }
-.brand-container { 
+
+.brand-container {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.brand-footer{
+
+.brand-footer {
     font-weight: bold;
     font-size: 2.63em;
     color: white;
 }
-.description{
+
+.description {
     max-width: 400px;
     font-size: 1.25em;
     color: white;
 }
-.title2{
+
+.title2 {
     font-size: 1.5em;
     font-weight: bold;
     color: white;
 }
-.foot-link{
+
+.foot-link {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.title3{
+
+.title3 {
     font-size: 1.62em;
     font-weight: bold;
     color: white;
+}
+
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        flex-direction: row;
+        padding: 10px 20px;
+        max-height: none;
+        border-bottom: 1px solid orange;
+        box-sizing: border-box;
+        margin-left: calc(-1 * var(--bs-gutter-x, 0.75rem));
+        /* Make the navbar span the full width */
+    }
+
+    .brand {
+        display: none;
+    }
+
+    .nav-links,
+    .btn-primary {
+        display: none;
+    }
+
+
+    /* Hamburger Menu */
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+
+    /* Banner */
+    .banner {
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+        text-align: center;
+        margin-top: 60px;
+        max-height: none;
+        overflow: hidden;
+    }
+
+    .banner-image-part {
+        order: -1;
+    }
+
+    .banner-image {
+        width: 100%;
+        max-height: none;
+    }
+
+    .banner-content {
+        text-align: center;
+        margin-top: -50px;
+        max-height: none;
+    }
+
+    .banner-title {
+        font-size: 1.9em;
+    }
+
+    .banner-description {
+        margin-top: 10px;
+        font-size: .9em;
+    }
+
+    .btn-sec {
+        font-size: 1em;
+    }
+
+
+    /* Standard Curriculum */
+    .sc {
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-top: -40px;
+    }
+
+    .facts-container {
+        grid-template-columns: 1fr;
+        margin: 0;
+        margin-top: -50px;
+        padding: 0 16px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .fact-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .pre-next {
+        display: none;
+    }
+
+    .section-title {
+        margin: 0;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .fact-title {
+        font-size: 1.2em;
+    }
+
+    .fact-name {
+        font-size: 0.9em;
+    }
+
+
+    /* Our Stories Section */
+    .os {
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    .long {
+        display: none;
+    }
+
+    .short {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .story-card1 {
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .story-card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .story-title1 {
+        font-size: .5em;
+        margin: 0 -16px;
+    }
+    .btn-third{
+        top: -18px;
+        left: -12px;
+        font-size: .5em;
+    }
+    .btn-fifth{
+        top: -18px;
+        left: -12px;
+        font-size: .5em;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        place-items: start;
+    }
+
+    .brand-footer {
+        font-size: 1.8em;
+    }
+
+    .description {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    .title2,
+    .title3 {
+        font-size: 1.4em;
+        text-align: left;
+    }
 }
