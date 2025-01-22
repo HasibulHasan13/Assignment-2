@@ -32,7 +32,9 @@ body {
 
 
 /* navbar */
-
+.hamburger{
+    display: none;
+}
 .navbar {
     margin: 0 auto;
     padding: 20px 140px 20px 140px;
@@ -68,9 +70,6 @@ body {
 .nav-item {
     list-style: none;
     margin-right: 30px;
-}
-.hamburger{
-    display: none;
 }
 .i1 {
     color: orange;
