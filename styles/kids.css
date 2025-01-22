@@ -9,8 +9,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    margin: 0; 
-    }
+    margin: 0;
+}
+
 .raleway-rale {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
@@ -26,6 +27,7 @@ body {
     font-weight: 600;
     border: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 
@@ -144,6 +146,7 @@ marquee {
     font-weight: 600;
     border: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 /* standard curriculum */
@@ -215,18 +218,21 @@ marquee {
 }
 
 .g1 {
-    background: linear-gradient(to bottom, #DEF5FF, #FFFFFF 30%);
+    background: linear-gradient(to bottom, #DEF5FF , #FFFFFF 40%);
     border: 2px solid #DEF5FF;
 }
 
 .g2 {
-    background: linear-gradient(to bottom, #FFF4DC, #FFFFFF 30%);
+    background: linear-gradient(to bottom, #FFF4DC, #FFFFFF 40%);
     border: 2px solid #FFF4DC;
 }
 
 .g3 {
-    background: linear-gradient(to bottom, #F2E8FF, #FFFFFF 30%);
+    background: linear-gradient(to bottom, #F2E8FF, #FFFFFF 40%);
     border: 2px solid #F2E8FF;
+}
+.pre-next img{
+    cursor: pointer;
 }
 
 /* Our stories section */
@@ -324,9 +330,11 @@ marquee {
     border: none;
     border-radius: 47.93px;
 }
-.fff{
+
+.fff {
     left: -45px;
 }
+
 .btn-fourth {
     position: relative;
     top: -25px;
@@ -362,6 +370,7 @@ marquee {
     border: none;
     border-radius: 12px;
     margin-bottom: 60px;
+    cursor: pointer;
 }
 
 /* footer  */
@@ -518,10 +527,9 @@ marquee {
         grid-template-columns: 1fr;
         margin: 0;
         margin-top: -50px;
-        padding: 0 16px;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 90%;
         max-width: 100%;
         box-sizing: border-box;
     }
@@ -580,12 +588,14 @@ marquee {
         font-size: .5em;
         margin: 0 -16px;
     }
-    .btn-third{
+
+    .btn-third {
         top: -18px;
         left: -12px;
         font-size: .5em;
     }
-    .btn-fifth{
+
+    .btn-fifth {
         top: -18px;
         left: -12px;
         font-size: .5em;
